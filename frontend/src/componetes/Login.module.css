@@ -1,0 +1,112 @@
+.container{
+    color: chocolate;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginEcriarLote form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+}
+
+.criarLotes{
+    width: 100%;
+    height: max-content;
+    padding: 2rem;
+    border: 2px solid black;
+}
+
+.criarLotes ul{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 40rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.criarLoteFuncaoClass{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.2);
+
+}
+.blocoLote{
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    width: 15rem;
+}
+.loteAVenda{
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    background-image: url(./../../public/assets/capim.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: 900;
+    font-size: 1rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.loteAVendaPlaca{
+    background-color: #ddd;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
+.excluirLoteClass{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 4rem;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.2);
+
+}
+.criarLoteExcluirLote{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.loginContainer{
+    width: 17rem;
+    height: 10rem;
+    background-color: #ebf8f7;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+.loginContainer h1{
+    text-align: left;
+    width: 100%;
+}
+.loginContainer div{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+}
+.loginContainer input{
+    width: 100%;
+}
+.loginContainer img{
+    width: 3rem;
+    height: 100%;
+}
+
+#submitId{
+    height: 2rem;
+}

@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    gap: 1rem;
+}
+.container h2{
+    color: aqua;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 0.2rem;
+    border-radius: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+
+
+
+.sectionUm{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    gap: 3rem;
+    border-right: 5px solid aqua ;
+}
+
+.sectionUm div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.sectionDois{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.sectionDois div{
+    width: 90%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

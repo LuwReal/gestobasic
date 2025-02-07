@@ -1,0 +1,26 @@
+.container{
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+.criarConta{
+    width: 17rem;
+    height: 10rem;
+    background-color: #ebf8f7;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.criarConta form{
+    display: flex;
+    flex-direction: column;
+}
+.criarConta h1{
+    font-size: 1.5rem;
+}
+.criarConta input{
+    height: 2rem;
+}
