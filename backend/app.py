@@ -3,11 +3,11 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 ACESSO_AO_BANCO_DE_DADO = {
-    'dbname':'lista_de_usuario',
-    'user':'postgres',
-    'password':'315dev.j$',
-    'host':'localhost',
-    'port':'5432',
+    'dbname':'',
+    'user':'',
+    'password':'',
+    'host':'',
+    'port':'',
 }
 def get_db_connection():
     conn = psycopg2.connect(**ACESSO_AO_BANCO_DE_DADO)
